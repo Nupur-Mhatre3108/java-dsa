@@ -41,7 +41,7 @@ public class LC001_TwoSum {
     System.out.print("Enter target:");
     int target=sc.nextInt();
     int indexarr[]=twosumTarget(arr, target);
-      System.out.print("The index which gives two sum is: " );
+    System.out.print("The index which gives two sum is: " );
     for(int i=0;i<indexarr.length;i++){
     System.out.print(indexarr[i]+ " ");
     }
